@@ -11,8 +11,6 @@ import pandas as pd
 from Parametros import *
 
 DatosReales = np.array(pd.read_csv('Participante44.csv', sep=',',header=None))
-registro = "02" #Poner el NUMERO de REGISTRO
-prueba = "Participante44_"+registro+".c3d"
 
 Nombres = []
 ## Load data
